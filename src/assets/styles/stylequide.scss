@@ -1,0 +1,261 @@
+.header-menu__link {
+  display: block;
+	position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+	padding: 7px;
+}
+
+.header-menu__link:hover {
+	color: #756257;
+}
+
+.header-menu__link:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.header-menu__link:active {
+	opacity: 0.4;
+}
+
+.header-menu__link.active::after {
+	content: "";
+	position: absolute;
+	background-color: #756257;
+	height: 2px;
+	bottom: -14px;
+	left: 7px;
+	right: 7px;
+}
+
+.header__button {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 18px;
+	background-color: #fff;
+	padding: 17px;
+	margin: auto;
+}
+
+.header__button:hover {
+	opacity: 0.7;
+}
+
+.header__button:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.header__button:active {
+	opacity: 0.4;
+}
+
+.header__buttons-search {
+	background-image: url(../images/search-icon.svg);
+	height: 18px;
+}
+
+.header__buttons-likes {
+	background-image: url(../images/likes-icon.svg);
+	height: 17px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.header__button-count {
+	display: block;
+	font-size: 10px;
+	color: #fff;
+	position: absolute;
+	background-color: #7DB54F;
+	padding: 5px;
+	border-radius: 50%;
+	left: 19px;
+	top: -2px;
+}
+
+.btn {
+	background-color: #756257;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 30px;
+	margin-left: 33px;
+	border-radius: 4px;
+}
+
+.interested__btn {
+	font-size: 20px;
+	margin-left: 0;
+	padding: 18px 130px;
+}
+
+.btn:hover {
+	background-color: #615048;
+}
+
+.btn:focus {
+	box-shadow: 0 0 3px 3px #83B3D3;
+}
+
+.btn:active {
+	opacity: 0.5;
+}
+
+/* mods blue btn */
+.btn_secondary {
+	border-radius: 0px 10px 10px 0px;
+	background-color: #83B3D3;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	padding: 19px 27px;
+}
+
+.btn_secondary:hover {
+	background-color: #68A2CA;
+}
+
+.btn_secondary:focus {
+	box-shadow: 0 0 3px 3px #756257;
+}
+
+.btn_secondary:active {
+	opacity: 0.5;
+}
+
+.form-input {
+	font-size: 18px;
+	padding: 19px 20px;
+	background-color: #F2F2F2;
+	border-radius: 10px 0 0 10px;
+	border: none;
+	flex-grow: 1;
+}
+
+.form-input:hover {
+	background-color: #E6E6E6;
+}
+
+.form-input:focus {
+	box-shadow: 0 0 3px 3px #83B3D3;
+}
+
+.form-input:active {
+	box-shadow: 0 0 3px 3px #000;
+}
+
+.social_link {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: inherit;
+	padding: 15px;
+	border-radius: 5px;
+	margin: auto;
+	opacity: 0.8;
+}
+
+.social_link:hover {
+	opacity: 1;
+}
+
+.social_link:focus {
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.social_link:active {
+	opacity: 0.6;
+}
+
+.social-twitter {
+	background-image: url(../images/twitter-icon.svg);
+	width: 18px;
+	height: 15px;
+}
+
+.social-facebook {
+	background-image: url(../images/facebook-icon.svg);
+	width: 10px;
+	height: 18px;
+}
+
+.social-youtube {
+	background-image: url(../images/youtube-icon.svg);
+	width: 20px;
+	height: 16px;
+}
+
+.footer-number {
+	display: block;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000;
+	padding: 20px;
+}
+
+.footer-number:hover {
+	color: #756257;
+}
+
+.footer-number:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.footer-number:active {
+	opacity: 0.5;
+}
+
+.html-academy {
+	display: block;
+	background-image: url(../images/html-icon.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 115px;
+	height: 33px;
+	padding: 30px 75px;
+}
+
+.html-academy:hover {
+	opacity: 0.8;
+}
+
+.html-academy:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.html-academy:active {
+	opacity: 0.6;
+}
+
+.catalog__content-second {
+	display: block;
+	background-color: inherit;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 7px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.catalog__content-second:hover {
+	opacity: 0.8;
+}
+
+.catalog__content-second:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #68A2CA;
+}
+
+.catalog__content-second:active {
+	opacity: 0.6;
+}
+
+
+
+
